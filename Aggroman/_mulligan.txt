@@ -1,0 +1,209 @@
+// This File: _mulligan.txt
+//    Author: Mixarms
+//   Version: 1.0 (03.07.2016)
+// Deck Name: Aggroman
+//      Hero: Shaman
+// Deck Type: Midrange (Aggro)
+
+// - S H A M A N --------------------------------
+// 2x [1] Lightning Bolt (EX1_238)
+// 2x [1] Rockbiter Weapon (CS2_045)
+// 2x [1] Tunnel Trogg (LOE_018)
+// 2x [2] Flametongue Totem (EX1_565)
+// 2x [2] Totem Golem (AT_052)
+// 2x [3] Feral Spirit (EX1_248)
+// 2x [3] Lava Burst (EX1_241)
+// 2x [3] Tuskarr Totemic (AT_046)
+// 2x [4] Flamewreathed Faceless (OG_024)
+// 2x [5] Doomhammer (EX1_567)
+// 2x [6] Thing from Below (OG_028)
+
+// - N E U T R A L ------------------------------
+// 2x [1] Abusive Sergeant (CS2_188)
+// 2x [1] Argent Squire (EX1_008)
+// 1x [1] Sir Finley Mrrgglton (LOE_076)
+// 1x [2] Flame Juggler (AT_094)
+// 2x [3] Argent Horserider (AT_087)
+
+// - C O M B O ----------------------------------
+// 1x Flametongue Totem (EX1_565) if 2x Argent Squire (EX1_008) or 2x Tunnel Trogg (LOE_018) or Argent Squire (EX1_008) + Tunnel Trogg (LOE_018) with The Coin (GAME_005)
+hold;shaman;all;EX1_565:1:EX1_008+EX1_008/LOE_018+LOE_018/EX1_008+LOE_018;coin
+
+// - D R U I D ----------------------------------
+// 1-DROP
+Argent Squire (EX1_008)
+hold;shaman;druid;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;druid;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;druid;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;druid;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;druid;EX1_248:1;always
+Tuskarr Totemic (AT_046)
+hold;shaman;druid;AT_046:1;coin
+
+// - H U N T E R --------------------------------
+// 1-DROP
+Argent Squire (EX1_008)
+hold;shaman;hunter;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;hunter;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;hunter;LOE_018;always
+
+// 2-DROP
+Flame Juggler (AT_094)
+hold;shaman;hunter;AT_094;always
+Totem Golem (AT_052)
+hold;shaman;hunter;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;hunter;EX1_248:1;always
+
+// - M A G E ------------------------------------
+// 1-DROP
+Rockbiter Weapon (CS2_045)
+hold;shaman;mage;CS2_045:1;coin
+Argent Squire (EX1_008)
+hold;shaman;mage;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;mage;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;mage;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;mage;AT_052;always
+
+// 3-DROP
+Tuskarr Totemic (AT_046)
+hold;shaman;mage;AT_046:1;always
+
+// - P A L A D I N ------------------------------
+// 1-DROP
+Argent Squire (EX1_008)
+hold;shaman;pala;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;pala;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;pala;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;pala;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;pala;EX1_248:1;always
+
+// 5-DROP
+Doomhammer (EX1_567)
+hold;shaman;pala;EX1_567:1;always
+
+// - P R I E S T --------------------------------
+// 1-DROP
+Argent Squire (EX1_008)
+hold;shaman;priest;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;priest;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;priest;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;priest;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;priest;EX1_248:1;always
+
+// 5-DROP
+Doomhammer (EX1_567)
+hold;shaman;priest;EX1_567:1;always
+
+// - R O G U E ----------------------------------
+// 1-DROP
+Rockbiter Weapon (CS2_045)
+hold;shaman;thief;CS2_045:1;coin
+Argent Squire (EX1_008)
+hold;shaman;priest;EX1_008;nocoin
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;thief;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;thief;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;thief;AT_052;coin
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;thief;EX1_248:1;always
+
+// 5-DROP
+Doomhammer (EX1_567)
+hold;shaman;thief;EX1_567:1;always
+
+// - S H A M A N --------------------------------
+// 1-DROP
+Rockbiter Weapon (CS2_045)
+hold;shaman;shaman;CS2_045:1;always
+Argent Squire (EX1_008)
+hold;shaman;shaman;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;shaman;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;shaman;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;shaman;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;shaman;EX1_248:1;always
+
+// - W A R L O C K ------------------------------
+// 1-DROP
+Rockbiter Weapon (CS2_045)
+hold;shaman;warlock;CS2_045:1;always
+Argent Squire (EX1_008)
+hold;shaman;warlock;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;warlock;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;warlock;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;warlock;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;warlock;EX1_248:1;always
+
+// - W A R R I O R ------------------------------
+// 1-DROP
+Argent Squire (EX1_008)
+hold;shaman;warrior;EX1_008;always
+Sir Finley Mrrgglton (LOE_076)
+hold;shaman;warrior;LOE_076;always
+Tunnel Trogg (LOE_018)
+hold;shaman;warrior;LOE_018;always
+
+// 2-DROP
+Totem Golem (AT_052)
+hold;shaman;warrior;AT_052;always
+
+// 3-DROP
+Feral Spirit (EX1_248)
+hold;shaman;warrior;EX1_248:1;always
+Tuskarr Totemic (AT_046)
+hold;shaman;warrior;AT_046:1;always
